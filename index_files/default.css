@@ -1,0 +1,135 @@
+@charset "utf-8";
+/*-----------------------------------------------------------
+===  [ reset CSS ]  ====================================
+------------------------------------------------------------*/
+
+/* ***************************************************************************** */
+/*
+
+　目次
+
+-------------------------------------------------------------------------------
+
+　01. basic
+　02. advance
+
+*/
+/* ***************************************************************************** */
+
+/** -------------------------------------------------------
+ ** 01. basic
+ ** ------------------------------------------------------- */
+
+html {
+	overflow-y: scroll;
+}
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+p,
+blockquote,
+th,
+td {
+	padding: 0;
+	margin: 0;
+}
+ul,
+ol,
+dl {
+	list-style: none;
+}
+caption,
+th {
+	text-align: left;
+}
+th {
+	font-weight: normal;
+}
+img,
+a img {
+	vertical-align: top;
+	border: none;
+	background: transparent;
+}
+object,
+embed {
+	vertical-align: top;
+	outline: none;
+}
+br {
+	letter-spacing: normal;
+}
+caption {
+	font-style: normal;
+	font-weight: normal;
+}
+dfn,
+cite {
+	font-style: normal;
+}
+table {
+	font-size: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	empty-cells: show;
+}
+th,
+td {
+	vertical-align: top;
+}
+fieldset,
+img {
+	border: none;
+}
+input,
+textarea {
+	font-size: 1em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	line-height: 1.0;
+}
+em,
+address,
+dfn {
+	font-style: normal;
+}
+sub,
+sup {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.0;
+	font-size: 9px;
+}
+sup {
+	vertical-align: 0.4em;
+}
+sub {
+	vertical-align: -0.1em;
+}
+.gecko sup,
+.gecko sub {
+	font-size: 8px;
+}
+hr {
+	display: none;
+}
